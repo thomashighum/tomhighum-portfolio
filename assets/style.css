@@ -1,6 +1,10 @@
 /* font-family: 'Bai Jamjuree', sans-serif;
 font-family: 'Julius Sans One', sans-serif; */
 
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --header-font: "Julius Sans One", sans-serif;
 }
@@ -20,7 +24,9 @@ h6 {
 nav {
   display: flex;
   background-color: tomato;
-  justify-content: ;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
 }
 
 nav ul {
@@ -31,4 +37,37 @@ nav ul {
 
 /* Main */
 
-/* About me */
+.main-section {
+  display: flex;
+  background-color: chartreuse;
+}
+
+.section-titles {
+  text-align: right;
+}
+
+/* Projects*/
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: chocolate;
+  width: 100%;
+}
+
+.projects div {
+  height: 200px;
+  margin: 10px;
+  background-color: black;
+  border: brown 1px solid;
+  flex: 1 1 400px;
+}
+
+@media (max-width: 800px) {
+  .main-section {
+    flex-direction: column;
+  }
+  .section-titles {
+    text-align: center;
+  }
+}
