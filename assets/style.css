@@ -40,14 +40,16 @@ nav ul {
 .main-section {
   display: flex;
   background-color: chartreuse;
+  padding-top: 20px;
 }
 
 .section-titles {
   text-align: right;
+  width: 150px;
+  padding: 20px 5px 0px 10px;
 }
 
 /* Projects*/
-
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -63,11 +65,22 @@ nav ul {
   flex: 1 1 400px;
 }
 
+.projects div:nth-child(1) {
+  flex: 100%;
+}
+
+/* Mobile responsive layout and resize */
 @media (max-width: 800px) {
   .main-section {
     flex-direction: column;
   }
   .section-titles {
     text-align: center;
+  }
+  .projects div {
+    height: 100px;
+  }
+  .projects div:nth-child(1) {
+    height: 200px;
   }
 }
