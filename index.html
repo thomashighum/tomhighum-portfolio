@@ -18,20 +18,20 @@
     <header>
         <h1>Thomas Highum</h1>
         <nav>
-            <button class="navbtn">About Me</button>
+            <a href="#about-me"><button class="navbtn">About Me</button></a>
             <div class="dropdown">
-                <button class="navbtn">My Works</button>
+                <a href="#my-works"><button class="navbtn">My Works</button></a>
                 <div class="dropdown-content">
-                    <a href="">Project1</a>
-                    <a href="">Project2</a>
-                    <a href="">Project3</a>
-                    <a href="">Project4</a>
-                    <a href="">Project5</a>
+                    <a href="#project1">Project1</a>
+                    <a href="#project2">Project2</a>
+                    <a href="#project3">Project3</a>
+                    <a href="#project4">Project4</a>
+                    <a href="#project5">Project5</a>
                     <!-- <a href="">Project6</a>
                     <a href="">Project7</a> -->
                 </div>
             </div>
-            <button class="navbtn">Contact Me</button>
+            <a href="#contact-me"><button class="navbtn">My Info</button></a>
         </nav>
     </header>
     <main>
@@ -39,34 +39,36 @@
             <div class="section-titles">
                 <h2>About Me</h2>
             </div>
-            <div>
+            <div id="about-me">
                 <figure>
                     <img src="/images/20210627_165036.jpg">
                 </figure>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis velit ullam repellendus nisi maxime pariatur alias cum omnis ratione nam maiores eos dolorum fugit explicabo placeat, a iste nemo nobis, voluptas totam iure magnam cupiditate quidem? Itaque officia sed corrupti alias est laudantium doloremque distinctio, ipsum repudiandae dolor ut molestiae.</p>
+                <div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis velit ullam repellendus nisi maxime pariatur alias cum omnis ratione nam maiores eos dolorum fugit explicabo placeat, a iste nemo nobis, voluptas totam iure magnam cupiditate quidem? Itaque officia sed corrupti alias est laudantium doloremque distinctio, ipsum repudiandae dolor ut molestiae.</p>
+                </div>
             </div>
         </section>
         <section class="main-section">
             <div class="section-titles">
                 <h2>My Works</h2>
             </div>
-            <div class="projects">
+            <div class="projects" id="my-works">
                 <!-- Projects -->
-                <div>
-                    <p>Project1</p>
-                </div>
-                <div>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="project1">
+                    <p>Not a real project</p>
+                </a>
+                <a id="project2">
                     <p>Project2</p>
-                </div>
-                <div>
+                </a>
+                <a id="project3">
                     <p>Project3</p>
-                </div>
-                <div>
+                </a>
+                <a id="project4">
                     <p>Project4</p>
-                </div>
-                <div>
+                </a>
+                <a id="project5">
                     <p>Project5</p>
-                </div>
+                </a>
                 <!-- <div>
                     <p>Project6</p>
                 </div>
@@ -75,17 +77,18 @@
                 </div> -->
             </div>
         </section>
-        <section class="main-section">
+        <section class="main-section" id="contact-me">
             <div class="section-titles">
                 <h2>Contact Me</h2>
             </div>
-            <div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi totam placeat autem. Saepe quos amet eligendi velit! Iusto, ab velit?</p>
+            <div id="contact-info">
+                <h3>Cell: 303.981.9884</h3>
+                <h3>email: tommyhighum@gmail.com</h3>
             </div>
         </section>
     </main>
     <footer>
-        <h3>Footer</h3>
+        <h4>Made by Thomas Highum -- 2021</h4>
     </footer>
 </body>
 
