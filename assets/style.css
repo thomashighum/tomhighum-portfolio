@@ -90,7 +90,8 @@ nav button {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+  background-color: var(--dark-accent);
+  color: var(--light-shades);
 }
 
 /* Show the dropdown menu on hover */
@@ -104,21 +105,33 @@ nav button {
 }
 
 /* Main */
+/* main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+} */
 
 .main-section {
   display: flex;
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
   padding-top: 20px;
   background-color: var(--light-shades);
+  border: rgb(0, 0, 0) 1px solid;
+  width: 100%;
 }
 
 .section-titles {
   text-align: right;
-  width: 150px;
+  width: 25%;
   padding: 20px 5px 0px 10px;
   font-size: 20px;
-  border-right: var(--dark-accent) 5px solid;
-  border-top: var(--dark-accent) 5px solid;
+  /* border-right: var(--dark-accent) 5px solid;
+  border-top: var(--dark-accent) 5px solid; */
+  border: violet 5px solid;
+}
+
+.main-section:nth-child(2) {
+  width: 75%;
 }
 
 /* About Me */
