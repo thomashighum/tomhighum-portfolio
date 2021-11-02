@@ -186,6 +186,7 @@ figure img {
   align-items: flex-end;
   justify-content: flex-end;
   padding: 10px;
+  text-decoration: none;
 }
 
 .projects a p {
@@ -201,7 +202,31 @@ figure img {
 }
 
 #project1 {
-  background-image: url(../images/20200707_165100.jpg);
+  background-image: url(../images/holy-cross-ravine.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#project2 {
+  background-image: url(../images/moqui-marble.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#project3 {
+  background-image: url(../images/taupo-sunset.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#project4 {
+  background-image: url(../images/axolotls.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#project5 {
+  background-image: url(../images/auckland.jpg);
   background-position: center;
   background-size: cover;
 }
