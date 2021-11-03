@@ -29,6 +29,10 @@ h6 {
   font-weight: 600;
 }
 
+p {
+  font-family: var(--header-font);
+}
+
 /* Navbar */
 header {
   display: flex;
